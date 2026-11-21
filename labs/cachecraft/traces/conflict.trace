@@ -1,0 +1,7 @@
+# three tags that share one set when s=2 and b=2
+L 0,4
+L 10,4
+L 20,4
+L 0,4
+L 10,4
+S 0,4
