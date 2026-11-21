@@ -1,0 +1,12 @@
+# 1+2+...+10 = 55
+    li r1, 0
+    li r2, 1
+    li r3, 11
+loop:
+    add r1, r1, r2
+    addi r2, r2, 1
+    beq r2, r3, done
+    j loop
+done:
+    svc 2
+    halt

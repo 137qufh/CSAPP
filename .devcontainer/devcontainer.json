@@ -1,0 +1,10 @@
+{
+  "name": "Systems Craft",
+  "dockerFile": "../Dockerfile",
+  "workspaceFolder": "/work",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.cpptools"]
+    }
+  }
+}

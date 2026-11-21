@@ -1,0 +1,6 @@
+.global entry
+entry:
+    li r1, 20
+    jal add2
+    svc 2
+    halt

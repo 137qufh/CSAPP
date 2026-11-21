@@ -1,0 +1,9 @@
+# r1 = 40; call adds 2; caller adds 1. Result 43.
+    li r1, 40
+    jal func
+    addi r1, r1, 1
+    svc 2
+    halt
+func:
+    addi r1, r1, 2
+    jr lr

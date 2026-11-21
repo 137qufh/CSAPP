@@ -1,0 +1,7 @@
+# allocate, free the middle, allocate again into the hole
+a 64
+a 64
+a 128
+f 1
+a 48
+a 256

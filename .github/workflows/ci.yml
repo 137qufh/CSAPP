@@ -1,0 +1,11 @@
+name: test-solution
+on:
+  push:
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: reference tests
+        run: make test-solution
