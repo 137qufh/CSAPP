@@ -20,6 +20,8 @@ __pycache__/
 
 **/test_student
 **/test_solution_bin
+**/test_*solution
+**/test_*_sol
 **/test_bio
 **/*_test
 **/a.out
